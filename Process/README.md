@@ -8,11 +8,11 @@ The image above shows the process model. It can be accessed via the the CPEE pro
 
 Process Description:
 
-The brewing process is initiated with a parallel control structure. In one branch, the robot continuously monitors the MQTT service, listening for incoming sensor data. Specifically, the robot evaluates the RSS sensor value to detect whether the kettle is actively heating.
+The brewing process is initiated with a parallel control structure. In one branch, the robot continuously monitors the MQTT service, listening for incoming sensor data. Specifically, the robot evaluates the RSS sensor value to detect whether the kettle is actively heating. 
 
 Once the MQTT service reports an RSS sensor value greater than 5, indicating that the kettle has started heating, the second branch of the parallel process is activated. In this branch, the robot arm begins moving toward the kettle in preparation for pickup.
 
-When the RSS sensor value drops below 5—corresponding to the kettle finishing the heating process—the parallel section is terminated. The robot then proceeds to pick up the heated kettle and moves it to the predefined pouring start position.
+When the RSS sensor value drops below 5 — corresponding to the kettle finishing the heating process — the parallel section is terminated. The robot then proceeds to pick up the heated kettle and moves it to the predefined pouring start position. 
 
 From this position, the robot executes the pouring routine. Depending on the selected control script, this is achieved either by (a) transmitting the required number of pouring loop iterations to the robot before execution, or (b) directly executing the predefined pouring process.
 
@@ -20,7 +20,7 @@ After the pouring sequence is completed, the robot returns the kettle to its ini
 
 
 
-The robot files called from the process enginee are provided below. One file that need a bit of elaboration is the pourcoffee.urp file which executes the pouring process.
+The robot files called from the process enginee are provided below. One file that needs a bit of elaboration is the pourcoffee.urp file which executes the pouring process.
 
 The file pourcoffee.urp implements the coffee pouring routine executed by the robot using the kettle. A central control variable in this program is num_loop, which defines the number of pouring rounds. This variable can either be assigned a fixed value—set to 5 in the current configuration to represent five pouring rounds—or dynamically assigned to in0. In the latter case, the number of pouring rounds is retrieved via Process (a) from the process engine and subsequently used to execute the pouring routine.
 
