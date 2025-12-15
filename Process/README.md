@@ -1,14 +1,14 @@
-Process (a): 
+# Process (a): 
 
 <img width="543" height="557" alt="image" src="https://github.com/user-attachments/assets/c9d435fc-f870-4f1a-b649-03cd727eb03d" />
 
-Process (b): 
+# Process (b): 
 
 <img width="544" height="517" alt="image" src="https://github.com/user-attachments/assets/c28a46f8-d2ae-4b9b-ae94-39ce063ce997" />
 
 The image above shows the process model. It can be accessed via the the CPEE process engine under /Teaching/Prak/TUM-Prak-25-WS/SchmittDavid. 
 
-Process Description:
+# Process Description:
 
 The brewing process is initiated with a parallel control structure. In one branch, the robot continuously monitors the MQTT service, listening for incoming sensor data. Specifically, the robot evaluates the RSS sensor value to detect whether the kettle is actively heating. 
 
