@@ -34,8 +34,8 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 4) Robot picks up the kettle
 5) Robot pours water over the prepared V60
 6) Brewing is executed in 5 pouring rounds
-  •	Each pouring round uses approximately 50 g of water
-	•	Total of 250 g of water is poured into the cup
+   - Each pouring round uses approximately 50 g of water
+   - Total of 250 g of water is poured into the cup
 
 (Attached video demonstrates the complete pouring process
 https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
