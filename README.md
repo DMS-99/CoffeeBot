@@ -15,8 +15,8 @@ Prepatations:
 5) Ensure the kettle is pluged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
 6) Ensure the robot server is running and the robot is in romote controll mode
 
-
-<img width="455" height="259" alt="image" src="https://github.com/user-attachments/assets/b5ca99ce-f94a-4704-93fe-4812ffe3c746" />
+- Describe brewing process -
+- Add extensuion opportunities -
 
 
 
