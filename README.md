@@ -43,9 +43,9 @@ What the robot does:
 https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 
 Further Automation Opportunities:
-	•	Automation of the coffee grinding process
-	  •	Integration of the Chestnut C3 grinder into the robotic workflow
-	  •	Removal of the grinder’s top lid to allow direct robotic access
+- Automation of the coffee grinding process
+- 	Integration of the Chestnut C3 grinder into the robotic workflow
+- 	Removal of the grinder’s top lid to allow direct robotic access
   	•	Adaptation of a nut tool to interface with the grinder’s grinding mechanism
   	•	Removal of the screw-on coffee collection container at the bottom of the grinder
   	•	Mounting of the remaining grinder body onto a custom 3D-printed holder
