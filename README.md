@@ -109,7 +109,13 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
   -  Closed-loop feedback to adapt grind size in subsequent brewing runs
   -  Automatic optimization of brewing parameters based on target flow behavior
   -  Reduction of sour taste caused by overly coarse grinding
-  -  Reduction of bitter taste caused by overly fine grinding  
+  -  Reduction of bitter taste caused by overly fine grinding
+  
+### Integration of a small display into the CoffeeBot system
+  -  Real-time visualization of the robot’s current process state
+  	- Display of kettle heating status
+  	- Indication of when the brewing process is active
+  	- Notification of completion of the brewing process 
  
 ## Pictures of the set up:
 
