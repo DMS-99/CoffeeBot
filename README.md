@@ -9,6 +9,8 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 
 <img width="1429" height="767" alt="image" src="https://github.com/user-attachments/assets/4701624a-e0ed-4ba9-b168-f03946551f35" />
 
+
+
 **How to use the CoffeeBot when everything is set up:**
 
 Preparations (pictures below):
