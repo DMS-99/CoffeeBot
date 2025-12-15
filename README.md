@@ -40,21 +40,21 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 (Attached video demonstrates the complete pouring process
 https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 
-## Bill of Materials (BOM)
+## Bill of materials (BOM)
 
-### Coffee Brewing Components
-- **V60 Dripper (Plastic, size 01)**  
+### Coffee brewing components
+- **V60 dripper (Plastic, size 01)**  
   Hario V60 Plastic Dripper  
   https://www.amazon.de/dp/B001HC9GIC
-- **V60 Paper Filters (size 01)**  
+- **V60 paper filters (size 01)**  
   Hario VCF-01  
   https://www.amazon.de/dp/B001U7CVEA
-- **Gooseneck Kettle (temperature-controlled)**  
+- **Gooseneck kettle (temperature-controlled)**  
   https://www.amazon.de/dp/B0CPJ447NZ
-- **Manual Coffee Grinder**  
+- **Manual coffee grinder**  
   Timemore Chestnut C3 Pro  
   https://www.coffeefriend.de/p/manuelle-kaffeemuehle-timemore-chestnut-c3-pro-black/
-- **Coffee Beans**  
+- **Coffee beans**  
   Lavazza Qualità Oro  
   https://www.coffeefriend.de/p/kaffeebohnen-lavazza-qualita-oro-1-kg/
 - **Scale**  
@@ -62,26 +62,26 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 - **Cup**  
   Standard coffee cup
 
-### Automation & Control
+### Automation & control
 - **Smart Socket**  
   NOUS smart socket with power measurement  
   https://www.amazon.de/dp/B0DDJVJJPM
-- **MQTT Server**  
+- **MQTT server**  
   Required for kettle state detection and process control
 
-### Robotics & Fixtures
+### Robotics & fixtures
 - **Universal Robot**  
   Used for kettle handling and pouring
-- **V60 Stand**  
+- **V60 stand**  
   Custom 3D-printed part (see subfolder)
-- **Gooseneck Kettle Holder**  
+- **Gooseneck kettle holder**  
   Custom 3D-printed part (see subfolder)
-- **Gooseneck Kettle Handle Adapter (for robot gripper)**  
+- **Gooseneck kettle handle adapter (for robot gripper)**  
   Custom 3D-printed part (see subfolder)
 
 
 
-## Further Automation Opportunities:
+## Further automation opportunities:
 ### Automation of the coffee grinding process
   - Integration of the Chestnut C3 grinder into the robotic workflow
   - Removal of the grinder’s top lid to allow direct robotic access
