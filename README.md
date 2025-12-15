@@ -28,9 +28,9 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 2) Turn on the kettle
 
 ### What the robot does:
-1) Kettle heats up and is detected by the MQTT server
-2) MQTT server sends a signal to the process engine once the kettle reaches 100 °C
-3) Robot starts the process automatically
+1) Kettle heats up and is detected by the MQTT service
+2) MQTT service sends a signal to the process engine once the kettle reaches the desired temperature
+3) Engine starts the process automatically
 4) Robot picks up the kettle
 5) Robot pours water over the prepared V60
 6) Brewing is executed in 5 pouring rounds
@@ -100,6 +100,16 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
   - Positioning of the V60 on top of the metal filter at the cleaning station
   - Robotic actuation to press down the filter and V60 to initiate cleaning
   - Optionally: design and 3D printing of a protective cap for the open end of the metal filter to prevent water splashing and soaking during the automated cleaning process
+
+### Integration of a scale into the CoffeeBot setup  
+  -  Continuous measurement of brewed coffee weight during pouring
+  -  Use of weight-over-time data as feedback for grind size optimization
+  -  Detection of fast water flow as an indicator of overly coarse grind size
+  -  Detection of slow water flow as an indicator of overly fine grind size
+  -  Closed-loop feedback to adapt grind size in subsequent brewing runs
+  -  Automatic optimization of brewing parameters based on target flow behavior
+  -  Reduction of sour taste caused by overly coarse grinding
+  -  Reduction of bitter taste caused by overly fine grinding  
  
 ## Pictures of the set up:
 
