@@ -3,10 +3,11 @@ A coffee brewing robot using a Universal Robot arm.
 
 <img width="515" height="853" alt="image" src="https://github.com/user-attachments/assets/5e253199-0a83-4099-b836-4160cca4c1d0" />
 
-
 This project uses a Universal Robot to brew coffee using a V60. The brewing technique is inspired by the 1 cup V60 brewing recipe by James Hoffmann (https://www.youtube.com/watch?v=1oB1oDrDkHM).
 
 This GitHub repository explains in 3 subfolders how the (1) process is set up and working, (2) MQTT service is set up and connected and (3) hardware is design. All relevant files including the CAD files, the code for the robot and the process are provided. Additionally, a video and pictures of the process and the parts are provided. 
+
+<img width="1429" height="767" alt="image" src="https://github.com/user-attachments/assets/4701624a-e0ed-4ba9-b168-f03946551f35" />
 
 **How to use the CoffeeBot when everything is set up:**
 
@@ -56,6 +57,7 @@ Further Automation Opportunities:
   - Optionally: design and 3D printing of a protective cap for the open end of the metal filter to prevent water splashing and soaking during the automated cleaning process
  
 Pictures of the set up:
+
    <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" />
    <img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/97e8f968-6c6b-4918-b030-29f60a02a14c" />
    <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" />
