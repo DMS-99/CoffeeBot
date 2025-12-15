@@ -1,5 +1,5 @@
 # CoffeeBot
-A coffee brewing robot using an Universal Robot.
+A coffee brewing robot using a Universal Robot.
 
 <img width="515" height="853" alt="image" src="https://github.com/user-attachments/assets/5e253199-0a83-4099-b836-4160cca4c1d0" />
 
