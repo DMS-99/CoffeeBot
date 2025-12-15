@@ -10,20 +10,13 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 
 **How to use the CoffeeBot when everything is set up:**
 
-Preparations:
+Preparations (pictures below):
 1) Grind 15g of coffee beans
 3) Fill the gooseneck kettel to the max marking
 4) Pre-wet the filter and the V60
 5) Put the coffee into the V60
 6) Ensure the kettle is plugged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
 8) Ensure the robot server is running and the robot is in romote control mode
-
-   <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" />
-   <img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/97e8f968-6c6b-4918-b030-29f60a02a14c" />
-   <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" />
-   <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" />
-   <img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" />
-   
 
 Brew coffee:
 1) Start the process engine
@@ -44,24 +37,31 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 
 Further Automation Opportunities:
 - Automation of the coffee grinding process
-- 	Integration of the Chestnut C3 grinder into the robotic workflow
-- 	Removal of the grinder’s top lid to allow direct robotic access
-  	•	Adaptation of a nut tool to interface with the grinder’s grinding mechanism
-  	•	Removal of the screw-on coffee collection container at the bottom of the grinder
-  	•	Mounting of the remaining grinder body onto a custom 3D-printed holder
-  	•	Use of a 3D-printed adapter to enable the robot to actuate the grinder
-  	•	Filling of coffee beans into the adapted grinder using the robot
-  	•	Grinding of beans into a small collection pot using the robot
-  	•	Handling of the pot and transfer of ground coffee into the V60 using the robot
+  - Integration of the Chestnut C3 grinder into the robotic workflow
+  - Removal of the grinder’s top lid to allow direct robotic access
+  - Adaptation of a nut tool to interface with the grinder’s grinding mechanism
+  - Removal of the screw-on coffee collection container at the bottom of the grinder
+  - Mounting of the remaining grinder body onto a custom 3D-printed holder
+  - Use of a 3D-printed adapter to enable the robot to actuate the grinder
+  - Filling of coffee beans into the adapted grinder using the robot
+  - Grinding of beans into a small collection pot using the robot
+  - Handling of the pot and transfer of ground coffee into the V60 using the robot
     
-  •	Automation of the filter cleaning using a reusable metal filter
-  	•	Replacement of paper filters to enable robotic handling and reuse
-  	•	Robotic removal of the metal filter after completion of the brewing process
-  	•	Placement of the metal filter onto the existing glass cleaning station in the lab
-  	•	Positioning of the V60 on top of the metal filter at the cleaning station
-  	•	Robotic actuation to press down the filter and V60 to initiate cleaning
-  	•	Optionally: Design and 3D printing of a protective cap for the open end of the metal filter for prevention of water splash and soaking during the automated cleaning process
-
+- Automation of the filter cleaning using a reusable metal filter
+  - Replacement of paper filters to enable robotic handling and reuse
+  - Robotic removal of the metal filter after completion of the brewing process
+  - Placement of the metal filter onto the existing glass cleaning station in the lab
+  - Positioning of the V60 on top of the metal filter at the cleaning station
+  - Robotic actuation to press down the filter and V60 to initiate cleaning
+  - Optionally: design and 3D printing of a protective cap for the open end of the metal filter to prevent water splashing and soaking during the automated cleaning process
+ 
+Pictures of the set up:
+   <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" />
+   <img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/97e8f968-6c6b-4918-b030-29f60a02a14c" />
+   <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" />
+   <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" />
+   <img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" />
+   
 
 
 
