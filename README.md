@@ -10,11 +10,13 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 <img width="1429" height="767" alt="image" src="https://github.com/user-attachments/assets/4701624a-e0ed-4ba9-b168-f03946551f35" />
 
 
-
+//
 **How to use the CoffeeBot when everything is set up:**
 
 Preparations (pictures below):
 1) Grind 15g of coffee beans
+	- Our final grinding size for a 250ml V60 brew: 16 clicks from 0 with the chestnut c3 grinder
+ 	- Overview grinding sizes chestnut c3: https://honestcoffeeguide.com/timemore-c3-grind-settings/ (Individual Finetuning recommended)
 3) Fill the gooseneck kettel to the max marking
 4) Pre-wet the filter and the V60
 5) Put the coffee into the V60
@@ -37,6 +39,51 @@ What the robot does:
 
 (Attached video demonstrates the complete pouring process
 https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
+
+## Bill of Materials (BOM)
+
+### Coffee Brewing Components
+- **V60 Dripper (Plastic, size 01)**  
+  Hario V60 Plastic Dripper  
+  https://www.amazon.de/dp/B001HC9GIC
+- **V60 Paper Filters (size 01)**  
+  Hario VCF-01  
+  https://www.amazon.de/dp/B001U7CVEA
+- **Gooseneck Kettle (Electric, temperature-controlled)**  
+  https://www.amazon.de/dp/B0CPJ447NZ
+- **Manual Coffee Grinder**  
+  Timemore Chestnut C3 Pro  
+  https://www.coffeefriend.de/p/manuelle-kaffeemuehle-timemore-chestnut-c3-pro-black/
+- **Coffee Beans**  
+  Lavazza Qualità Oro  
+  https://www.coffeefriend.de/p/kaffeebohnen-lavazza-qualita-oro-1-kg/
+- **Scale**  
+  Any fine-resolution coffee scale (≥ 0.1 g accuracy recommended)
+- **Water**  
+  Volvic (recommended for best taste)
+- **Cup**  
+  Standard coffee cup or mug
+
+### Automation & Control
+- **Smart Socket (Tasmota-compatible)**  
+  NOUS smart socket with power measurement  
+  https://www.amazon.de/dp/B0DDJVJJPM
+- **MQTT Server**  
+  Required for kettle state detection and process control
+
+### Robotics & Fixtures
+- **Universal Robot (UR series)**  
+  Used for kettle handling and pouring (model dependent)
+- **V60 Stand**  
+  Custom 3D-printed part
+- **Gooseneck Kettle Holder**  
+  Custom 3D-printed part
+- **Gooseneck Kettle Handle Adapter (for robot gripper)**  
+  Custom 3D-printed part
+
+### Files & Fabrication
+- **3D-Printed Parts**  
+  STL/CAD files provided in this repository
 
 Further Automation Opportunities:
 - Automation of the coffee grinding process
