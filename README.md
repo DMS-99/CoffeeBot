@@ -1,5 +1,6 @@
 # CoffeeBot
 A coffee cooking robot using an Universal Robot.
+
 <img width="515" height="853" alt="image" src="https://github.com/user-attachments/assets/5e253199-0a83-4099-b836-4160cca4c1d0" />
 
 
@@ -11,19 +12,13 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 
 Preparations:
 1) Grind 15g of coffee beans
-<img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" /> <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" /> <img width="604" height="403" alt="image" src="https://github.com/user-attachments/assets/15d96517-2626-40fa-ab91-9f0efe731768" /> <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" />
-
 3) Fill the gooseneck kettel to the max marking
 4) Pre-wet the filter and the V60
 5) Put the coffee into the V60
-<img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" />
 6) Ensure the kettle is plugged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
-<img width="505" height="914" alt="image" src="https://github.com/user-attachments/assets/22819b55-24f9-41c7-924a-6780867ce8b2" />
 8) Ensure the robot server is running and the robot is in romote control mode
 
-
-
-
+   <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" /> <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" /> <img width="604" height="403" alt="image" src="https://github.com/user-attachments/assets/15d96517-2626-40fa-ab91-9f0efe731768" /> <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" /> <img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" /> <img width="505" height="914" alt="image" src="https://github.com/user-attachments/assets/22819b55-24f9-41c7-924a-6780867ce8b2" />
 
 Brew coffee:
 1) Start the process engine
@@ -39,8 +34,8 @@ What the robot does:
   •	Each pouring round uses approximately 50 g of water
 	•	Total of 250 g of water is poured into the cup
 
-(Attached video demonstrates the complete pouring process)
-https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c
+(Attached video demonstrates the complete pouring process
+https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 
 Further Automation Opportunities:
 	•	Automation of the coffee grinding process
