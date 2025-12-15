@@ -18,7 +18,12 @@ Preparations:
 6) Ensure the kettle is plugged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
 8) Ensure the robot server is running and the robot is in romote control mode
 
-   <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" /> <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" /> <img width="604" height="403" alt="image" src="https://github.com/user-attachments/assets/15d96517-2626-40fa-ab91-9f0efe731768" /> <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" /> <img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" /> <img width="505" height="914" alt="image" src="https://github.com/user-attachments/assets/22819b55-24f9-41c7-924a-6780867ce8b2" />
+   <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" />
+   <img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/97e8f968-6c6b-4918-b030-29f60a02a14c" />
+   <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" />
+   <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" />
+   <img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" />
+   
 
 Brew coffee:
 1) Start the process engine
