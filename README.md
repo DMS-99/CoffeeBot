@@ -1,22 +1,68 @@
 # CoffeeBot
 A coffee cooking robot using an Universal Robot.
+<img width="515" height="853" alt="image" src="https://github.com/user-attachments/assets/5e253199-0a83-4099-b836-4160cca4c1d0" />
 
-This project uses a Universal Robot to brew coffee using a V60. The brewing technique is inspired by the 1 cup V60 brewing recepite by James Hoffman (https://www.youtube.com/watch?v=1oB1oDrDkHM).
 
-This Github repository explains in 3 subfolders how the (1) process is set up and working, (2) mqtt service is set up and connected and (3) harware is design. All relevant files including the CAD files, the code for the robot and the process are provided. Aditionally, a video and pictures of the process and the parts are provided. 
+This project uses a Universal Robot to brew coffee using a V60. The brewing technique is inspired by the 1 cup V60 brewing recipe by James Hoffmann (https://www.youtube.com/watch?v=1oB1oDrDkHM).
+
+This GitHub repository explains in 3 subfolders how the (1) process is set up and working, (2) MQTT service is set up and connected and (3) hardware is design. All relevant files including the CAD files, the code for the robot and the process are provided. Additionally, a video and pictures of the process and the parts are provided. 
 
 **How to use the CoffeeBot when everything is set up:**
 
-Prepatations:
+Preparations:
 1) Grind 15g of coffee beans
-2) Fill the goose neck kettel to the max marking
-3) Prewett the filter and the V60
-4) Put the coffee into the V60
-5) Ensure the kettle is pluged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
-6) Ensure the robot server is running and the robot is in romote controll mode
+<img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" /> <img width="444" height="777" alt="image" src="https://github.com/user-attachments/assets/83485e9b-dace-4cf4-a0a6-f7db8a6bafce" /> <img width="604" height="403" alt="image" src="https://github.com/user-attachments/assets/15d96517-2626-40fa-ab91-9f0efe731768" /> <img width="802" height="505" alt="image" src="https://github.com/user-attachments/assets/61bfd1e8-221f-4d82-94df-8358eee6fbb6" />
 
-- Describe brewing process -
-- Add extensuion opportunities -
+3) Fill the gooseneck kettel to the max marking
+4) Pre-wet the filter and the V60
+5) Put the coffee into the V60
+<img width="822" height="902" alt="image" src="https://github.com/user-attachments/assets/eca3dedf-21ab-4e0b-b598-f66255e87854" />
+6) Ensure the kettle is plugged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
+<img width="505" height="914" alt="image" src="https://github.com/user-attachments/assets/22819b55-24f9-41c7-924a-6780867ce8b2" />
+8) Ensure the robot server is running and the robot is in romote control mode
+
+
+
+
+
+Brew coffee:
+1) Start the process engine
+2) Turn on the kettle
+
+What the robot does:
+1) Kettle heats up and is detected by the MQTT server
+2) MQTT server sends a signal to the process engine once the kettle reaches 100 °C
+3) Robot starts the process automatically
+4) Robot picks up the kettle
+5) Robot pours water over the prepared V60
+6) Brewing is executed in 5 pouring rounds
+  •	Each pouring round uses approximately 50 g of water
+	•	Total of 250 g of water is poured into the cup
+
+(Attached video demonstrates the complete pouring process)
+https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c
+
+Further Automation Opportunities:
+	•	Automation of the coffee grinding process
+	  •	Integration of the Chestnut C3 grinder into the robotic workflow
+	  •	Removal of the grinder’s top lid to allow direct robotic access
+  	•	Adaptation of a nut tool to interface with the grinder’s grinding mechanism
+  	•	Removal of the screw-on coffee collection container at the bottom of the grinder
+  	•	Mounting of the remaining grinder body onto a custom 3D-printed holder
+  	•	Use of a 3D-printed adapter to enable the robot to actuate the grinder
+  	•	Filling of coffee beans into the adapted grinder using the robot
+  	•	Grinding of beans into a small collection pot using the robot
+  	•	Handling of the pot and transfer of ground coffee into the V60 using the robot
+    
+  •	Automation of the filter cleaning using a reusable metal filter
+  	•	Replacement of paper filters to enable robotic handling and reuse
+  	•	Robotic removal of the metal filter after completion of the brewing process
+  	•	Placement of the metal filter onto the existing glass cleaning station in the lab
+  	•	Positioning of the V60 on top of the metal filter at the cleaning station
+  	•	Robotic actuation to press down the filter and V60 to initiate cleaning
+  	•	Optionally: Design and 3D printing of a protective cap for the open end of the metal filter for prevention of water splash and soaking during the automated cleaning process
+
+
 
 
 
