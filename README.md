@@ -1,2 +1,2 @@
 # CoffeeBot
-A coffee cooking robot using a Universal Robot Arm.
+A coffee cooking robot using an Universal Robot Arm.
