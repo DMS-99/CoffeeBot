@@ -10,10 +10,10 @@ This GitHub repository explains in 3 subfolders how the (1) process is set up an
 <img width="1429" height="767" alt="image" src="https://github.com/user-attachments/assets/4701624a-e0ed-4ba9-b168-f03946551f35" />
 
 
-//
-**How to use the CoffeeBot when everything is set up:**
 
-Preparations (pictures below):
+## How to use the CoffeeBot when everything is set up:
+
+### Preparations (pictures below):
 1) Grind 15g of coffee beans
 	- Our final grinding size for a 250ml V60 brew: 16 clicks from 0 with the chestnut c3 grinder
  	- Overview grinding sizes chestnut c3: https://honestcoffeeguide.com/timemore-c3-grind-settings/ (Individual Finetuning recommended)
@@ -23,11 +23,11 @@ Preparations (pictures below):
 6) Ensure the kettle is plugged into the smart plug and the smart plug is turned on and connected to the MQTT server (see MQTT folder)
 8) Ensure the robot server is running and the robot is in romote control mode
 
-Brew coffee:
+### Brew coffee:
 1) Start the process engine
 2) Turn on the kettle
 
-What the robot does:
+### What the robot does:
 1) Kettle heats up and is detected by the MQTT server
 2) MQTT server sends a signal to the process engine once the kettle reaches 100 °C
 3) Robot starts the process automatically
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
 - **V60 Paper Filters (size 01)**  
   Hario VCF-01  
   https://www.amazon.de/dp/B001U7CVEA
-- **Gooseneck Kettle (Electric, temperature-controlled)**  
+- **Gooseneck Kettle (temperature-controlled)**  
   https://www.amazon.de/dp/B0CPJ447NZ
 - **Manual Coffee Grinder**  
   Timemore Chestnut C3 Pro  
@@ -59,34 +59,30 @@ https://github.com/user-attachments/assets/f163f936-66f3-4e5c-83a3-607d5750748c)
   https://www.coffeefriend.de/p/kaffeebohnen-lavazza-qualita-oro-1-kg/
 - **Scale**  
   Any fine-resolution coffee scale (≥ 0.1 g accuracy recommended)
-- **Water**  
-  Volvic (recommended for best taste)
 - **Cup**  
-  Standard coffee cup or mug
+  Standard coffee cup
 
 ### Automation & Control
-- **Smart Socket (Tasmota-compatible)**  
+- **Smart Socket**  
   NOUS smart socket with power measurement  
   https://www.amazon.de/dp/B0DDJVJJPM
 - **MQTT Server**  
   Required for kettle state detection and process control
 
 ### Robotics & Fixtures
-- **Universal Robot (UR series)**  
-  Used for kettle handling and pouring (model dependent)
+- **Universal Robot**  
+  Used for kettle handling and pouring
 - **V60 Stand**  
-  Custom 3D-printed part
+  Custom 3D-printed part (see subfolder)
 - **Gooseneck Kettle Holder**  
-  Custom 3D-printed part
+  Custom 3D-printed part (see subfolder)
 - **Gooseneck Kettle Handle Adapter (for robot gripper)**  
-  Custom 3D-printed part
+  Custom 3D-printed part (see subfolder)
 
-### Files & Fabrication
-- **3D-Printed Parts**  
-  STL/CAD files provided in this repository
 
-Further Automation Opportunities:
-- Automation of the coffee grinding process
+
+## Further Automation Opportunities:
+### Automation of the coffee grinding process
   - Integration of the Chestnut C3 grinder into the robotic workflow
   - Removal of the grinder’s top lid to allow direct robotic access
   - Adaptation of a nut tool to interface with the grinder’s grinding mechanism
@@ -97,7 +93,7 @@ Further Automation Opportunities:
   - Grinding of beans into a small collection pot using the robot
   - Handling of the pot and transfer of ground coffee into the V60 using the robot
     
-- Automation of the filter cleaning using a reusable metal filter
+### Automation of the filter cleaning using a reusable metal filter
   - Replacement of paper filters to enable robotic handling and reuse
   - Robotic removal of the metal filter after completion of the brewing process
   - Placement of the metal filter onto the existing glass cleaning station in the lab
@@ -105,7 +101,7 @@ Further Automation Opportunities:
   - Robotic actuation to press down the filter and V60 to initiate cleaning
   - Optionally: design and 3D printing of a protective cap for the open end of the metal filter to prevent water splashing and soaking during the automated cleaning process
  
-Pictures of the set up:
+## Pictures of the set up:
 
    <img width="447" height="499" alt="image" src="https://github.com/user-attachments/assets/17beff41-ae47-45ae-bacf-c10728161ab9" />
    <img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/97e8f968-6c6b-4918-b030-29f60a02a14c" />
