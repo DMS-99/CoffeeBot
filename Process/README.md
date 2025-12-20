@@ -24,7 +24,7 @@ After the pouring sequence is completed, the robot returns the kettle to its ini
 
 The robot files called from the process enginee are provided below. One file that needs a bit of elaboration is the pourcoffee.urp file which executes the pouring process.
 
-The file pourcoffee.urp implements the coffee pouring routine executed by the robot using the kettle. A central control variable in this program is num_loop, which defines the number of pouring rounds. This variable can either be assigned a fixed value—set to 5 in the current configuration to represent five pouring rounds—or dynamically assigned to in0. In the latter case, the number of pouring rounds is retrieved via Process (a) from the process engine and subsequently used to execute the pouring routine.
+The file pourcoffee.urp implements the coffee pouring routine executed by the robot using the kettle. A central control variable in this program is num_loop, which defines the number of pouring rounds. This variable can either be assigned a fixed value — set to 5 in the current configuration to represent five pouring rounds — or dynamically assigned to in0. In the latter case, the number of pouring rounds is retrieved via Process (a) from the process engine and subsequently used to execute the pouring routine.
 
 The pouring motion is parameterized around a variable named center, which defines the geometric center of the pouring circle. Based on this center point, the auxiliary variables bottom, right, top, and left are computed and define the key waypoints of the circular pouring trajectory. The radius of the pouring circle is specified by the variable radius, which can be adjusted to match the brewing setup. For the 1 cup V60 configuration used in this project, the radius is set to 0.029.
 
